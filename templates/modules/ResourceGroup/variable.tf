@@ -6,10 +6,10 @@ variable "environment" {
   type        = string
   description = "This variable defines the Resource Group"
 }
-variable "IacRepository" {
-  type        = string
-  description = "This variable defines the Resource Group"
-}
+// variable "IacRepository" {
+//   type        = string
+//   description = "This variable defines the Resource Group"
+// }
 variable "compPrefix" {
   type        = string
   description = "This variable defines the Resource Group"
@@ -17,6 +17,10 @@ variable "compPrefix" {
 variable "projectName" {
   type        = string
   description = "This variable defines the Resource Group"
+}
+variable "compPx" {
+  type        = string
+  description = "ariable defines the Resource Group"
 }
 ##componentName 
 /*variable "environment" {
