@@ -6,6 +6,10 @@ variable "environment" {
   type        = string
   description = "This variable defines the Resource Group"
 }
+variable "enonment" {
+  type        = string
+  description = "This variable defines the Resource Group"
+}
 // variable "IacRepository" {
 //   type        = string
 //   description = "This variable defines the Resource Group"
